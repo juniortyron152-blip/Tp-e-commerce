@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:black;
+    color:white;
+    padding: 5px;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav  a{
+    text-decoration: none;
+    color:white;
+
+}
+nav img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+.nav-item i{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Cambria, serif';
+}
+.contact{
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact h2{
+    color:#444;
+    margin-bottom: 1rem;
+}
+.contact p{
+    margin-bottom: 1.5rem;
+    color:#555;
+}
+.contact-form label{
+    display: block;
+    margin: 0.5em 0 0.3rem;
+    font-weight: bold;
+}
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea{
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact-form button{
+    background-color: silver;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.contact-form button:hover{
+    background-color: wheat;
+}
+footer{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    font-size: 15px;
+    }
+    .footer-container{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1rem;
+        justify-content: space-between;
+    
+    }
+    .footer-bottom{
+        text-align: center;
+        padding: 5px;
+    }
+    .footer-container h3{
+        font-size: 20px;
+    }
